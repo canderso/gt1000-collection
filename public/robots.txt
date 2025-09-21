@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://canderso.github.io/gt1000-collection/sitemap.xml
+

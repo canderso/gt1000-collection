@@ -1,10 +1,12 @@
 import './App.css'
+import Layout from './components/Layout'
 
 function App() {
   return (
-    <div style={{ display: 'flex', minHeight: '100vh', alignItems: 'center', justifyContent: 'center' }}>
+    <Layout>
       <h1>Hello, world!</h1>
-    </div>
+      <p>Welcome to the GT1000 collection. Coming soon.</p>
+    </Layout>
   )
 }
 
