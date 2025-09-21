@@ -8,7 +8,7 @@ type SpecsProps = {
 export const Specs: FC<SpecsProps> = ({ specs }) => {
   return (
     <section aria-labelledby="specs-title" style={{ marginBottom: 32 }}>
-      <h2 id="specs-title" style={{ fontSize: 24, marginBottom: 12 }}>Specifications</h2>
+      <h2 id="specs-title" style={{ fontSize: 24, marginBottom: 12 }}>Caractéristiques</h2>
       <div style={{ overflowX: 'auto' }}>
         <table style={{ borderCollapse: 'collapse', width: '100%', minWidth: 420 }}>
           <tbody>

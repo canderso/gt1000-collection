@@ -6,35 +6,35 @@ const placeholder = `${base}images/placeholder.svg`
 export const vehicle: Vehicle = {
   id: 'ducati-gt1000',
   name: 'Ducati GT1000',
-  subtitle: 'SportClassic Series',
-  description: 'A modern classic with timeless lines, the Ducati GT1000 blends vintage aesthetics with contemporary engineering.',
+  subtitle: 'Série SportClassic',
+  description: 'Classique moderne aux lignes intemporelles, la Ducati GT1000 marie une esthétique vintage à une ingénierie contemporaine.',
   brand: 'Ducati',
   model: 'GT1000',
   year: '2007',
   heroImage: {
     url: placeholder,
-    alt: 'Ducati GT1000 side profile (placeholder)',
+    alt: 'Ducati GT1000, profil latéral (image de remplacement)',
     width: 1600,
     height: 900,
   },
   gallery: [
-    { url: placeholder, alt: 'Front three-quarter view (placeholder)' },
-    { url: placeholder, alt: 'Rear three-quarter view (placeholder)' },
-    { url: placeholder, alt: 'Instrument cluster (placeholder)' },
-    { url: placeholder, alt: 'Engine detail (placeholder)' },
+    { url: placeholder, alt: 'Vue trois-quarts avant (image de remplacement)' },
+    { url: placeholder, alt: 'Vue trois-quarts arrière (image de remplacement)' },
+    { url: placeholder, alt: 'Bloc instruments (image de remplacement)' },
+    { url: placeholder, alt: 'Détail du moteur (image de remplacement)' },
   ],
   specs: [
-    { label: 'Engine', value: '992 cc L-twin, air-cooled' },
-    { label: 'Power', value: '≈ 92 hp' },
-    { label: 'Torque', value: '≈ 67 lb-ft' },
-    { label: 'Transmission', value: '6-speed' },
-    { label: 'Dry Weight', value: '≈ 185 kg' },
-    { label: 'Fuel Capacity', value: '15 L' },
+    { label: 'Moteur', value: '992 cm³ bicylindre en L, refroidi par air' },
+    { label: 'Puissance', value: '≈ 92 ch' },
+    { label: 'Couple', value: '≈ 91 N·m' },
+    { label: 'Transmission', value: '6 vitesses' },
+    { label: 'Poids à sec', value: '≈ 185 kg' },
+    { label: 'Capacité du réservoir', value: '15 L' },
   ],
   provenance: [
-    'Single-owner example from new (placeholder)',
-    'Regularly serviced with documented maintenance (placeholder)',
-    'Stored in climate-controlled garage (placeholder)'
+    'Exemplaire première main (contenu de remplacement)',
+    'Entretien régulier avec historique documenté (contenu de remplacement)',
+    'Stockée dans un garage climatisé (contenu de remplacement)'
   ],
 }
 

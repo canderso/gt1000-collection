@@ -22,7 +22,7 @@ export const Header: FC = () => {
           fontSize: 18,
           color: 'inherit',
           textDecoration: 'none'
-        }}>GT1000 Collection</a>
+        }}>Collection GT1000</a>
       </div>
     </header>
   )

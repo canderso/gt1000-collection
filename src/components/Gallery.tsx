@@ -8,7 +8,7 @@ type GalleryProps = {
 export const Gallery: FC<GalleryProps> = ({ images }) => {
   return (
     <section aria-labelledby="gallery-title" style={{ marginBottom: 32 }}>
-      <h2 id="gallery-title" style={{ fontSize: 24, marginBottom: 12 }}>Gallery</h2>
+      <h2 id="gallery-title" style={{ fontSize: 24, marginBottom: 12 }}>Galerie</h2>
       <div style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
