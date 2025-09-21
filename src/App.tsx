@@ -1,11 +1,22 @@
 import './App.css'
 import Layout from './components/Layout'
+import Breadcrumbs from './components/Breadcrumbs'
+import Hero from './components/Hero'
+import Gallery from './components/Gallery'
+import Specs from './components/Specs'
+import Provenance from './components/Provenance'
+import JsonLd from './components/JsonLd'
+import { vehicle } from './data/vehicle'
 
 function App() {
   return (
     <Layout>
-      <h1>Hello, world!</h1>
-      <p>Welcome to the GT1000 collection. Coming soon.</p>
+      <Breadcrumbs />
+      <Hero vehicle={vehicle} />
+      <Gallery images={vehicle.gallery} />
+      <Specs specs={vehicle.specs} />
+      <Provenance entries={vehicle.provenance} />
+      <JsonLd vehicle={vehicle} />
     </Layout>
   )
 }
