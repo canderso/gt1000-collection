@@ -1,7 +1,7 @@
 import type { Vehicle } from '../types'
 
 const base = import.meta.env.BASE_URL || '/'
-const placeholder = new URL('images/placeholder.svg', base).toString()
+const placeholder = `${base}images/placeholder.svg`
 
 export const vehicle: Vehicle = {
   id: 'ducati-gt1000',
