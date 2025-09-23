@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Histoire from './pages/Histoire'
+import History from './pages/History'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Histoire />
+    <History />
   </StrictMode>,
 )
 

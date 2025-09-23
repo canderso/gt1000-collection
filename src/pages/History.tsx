@@ -40,9 +40,9 @@ export const Histoire: FC = () => {
           <p>
             La gamme <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">Ducati SportClassic</a> (2006–2010) rassemble trois modèles : 
             la Sport, la Paul Smart 1000 LE et la GT. Toutes partagent le bicylindre desmodromique de 992&nbsp;cm³ (≈&nbsp;92&nbsp;ch), un 
-            cadre treillis tubulaire et un design néo‑rétro directement inspiré des Ducati des années 1970. La 
-            <strong>GT1000</strong> privilégie le confort et l’usage routier, la <strong>Sport</strong> adopte une ergonomie plus engagée, tandis que la 
-            <strong>Paul Smart</strong> rend hommage à la 750&nbsp;SS victorieuse d’Imola. En 2008, la <strong>GT&nbsp;Touring</strong> ajoute pare‑brise et 
+            cadre treillis tubulaire et un design néo‑rétro directement inspiré des Ducati des années 1970.</p>
+          <p>
+            La <strong>GT1000</strong> privilégie le confort et l’usage routier, la <strong>Sport</strong> adopte une ergonomie plus engagée, tandis que la <strong>Paul Smart</strong> rend hommage à la 750&nbsp;SS victorieuse d’Imola. En 2008, la <strong>GT&nbsp;Touring</strong> ajoute pare‑brise et 
             accessoires de voyage.
           </p>
         </section>
