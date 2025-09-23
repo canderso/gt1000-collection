@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        histoire: 'histoire.html',
+        history: 'history.html',
       },
     },
   },

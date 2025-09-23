@@ -24,7 +24,7 @@ export const Header: FC = () => {
           textDecoration: 'none'
         }}>Collection GT1000</a>
         <nav>
-          <a href="/gt1000-collection/histoire.html" style={{ color: 'inherit' }}>Histoire</a>
+          <a href="/gt1000-collection/history.html" style={{ color: 'inherit' }}>Histoire</a>
         </nav>
       </div>
     </header>

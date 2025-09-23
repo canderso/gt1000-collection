@@ -7,7 +7,7 @@ export const Breadcrumbs: FC = () => {
       <ol style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', gap: 8, alignItems: 'center', color: 'var(--muted)' }}>
         <li><a href={base}>Accueil</a></li>
         <li aria-hidden="true">/</li>
-        <li><span aria-current="page">Ducati GT1000</span></li>
+        <li><span aria-current="page">Ducati SportClassic GT1000</span></li>
       </ol>
     </nav>
   )
