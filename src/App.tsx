@@ -11,7 +11,7 @@ import { vehicle } from './data/vehicle'
 function App() {
   return (
     <Layout>
-      <Breadcrumbs />
+      <Breadcrumbs currentLabel={vehicle.name} />
       <Hero vehicle={vehicle} />
       <Gallery images={vehicle.gallery} />
       <Specs specs={vehicle.specs} />
