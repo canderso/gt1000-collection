@@ -6,4 +6,12 @@ export default defineConfig({
   plugins: [react()],
   // Set base for GitHub Pages: repo name is gt1000-collection
   base: '/gt1000-collection/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        histoire: 'histoire.html',
+      },
+    },
+  },
 })
