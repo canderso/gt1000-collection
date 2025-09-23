@@ -14,62 +14,65 @@ export const Histoire: FC = () => {
         <header style={{ marginBottom: 24 }}>
           <h1 style={{ fontSize: 32, margin: 0 }}>Histoire de la Ducati SportClassic – GT1000</h1>
           <p style={{ color: 'var(--muted)', margin: '8px 0 0 0' }}>
-            Des origines de la 750 GT aux hommages modernes et à sa présence au cinéma.
+            Des origines de la <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" target="_blank" rel="noopener">Ducati 750 GT</a> à la 
+            <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">série Ducati SportClassic</a> et à sa place dans la pop culture.
           </p>
         </header>
 
         <section style={{ marginBottom: 24 }}>
-          <h2 style={{ fontSize: 24, margin: '0 0 12px 0' }}>Aux origines : la 750 GT</h2>
+          <h2 style={{ fontSize: 24, margin: '0 0 12px 0' }}>Origines</h2>
           <p>
-            La lignée de la GT1000 trouve ses racines dans la mythique Ducati 750 GT des années 1970. 
-            Avec son bicylindre en L, son style épuré et sa position de conduite classique, elle a posé les 
-            bases de ce que deviendra l’esthétique emblématique des SportClassic.
+            La <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" target="_blank" rel="noopener">Ducati 750 GT</a> (début des années 1970) inaugure le 
+            bicylindre en « L » et un cadre en treillis qui deviendront des signatures de la marque. Avec son style routier épuré, 
+            elle pose les bases esthétiques et techniques d’une lignée qui inspirera directement la <a href="/gt1000-collection/" rel="canonical">GT1000</a> de la 
+            famille <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">SportClassic</a>.
           </p>
           <figure style={{ margin: '12px 0 0 0' }}>
             <img src={img750gt} alt="Ducati 750 GT (image d'illustration)" style={{ width: '100%', height: 'auto', borderRadius: 8 }} loading="lazy" />
             <figcaption style={{ color: 'var(--muted)', marginTop: 6 }}>
-              Ducati 750 GT – source d’inspiration majeure de la GT1000.
+              La 750 GT, matrice de la GT1000 et de l’esthétique néo‑rétro.
             </figcaption>
           </figure>
         </section>
 
         <section style={{ marginBottom: 24 }}>
-          <h2 style={{ fontSize: 24, margin: '0 0 12px 0' }}>Le retour néo-rétro : la série SportClassic</h2>
+          <h2 style={{ fontSize: 24, margin: '0 0 12px 0' }}>Ducati SportClassic</h2>
           <p>
-            Au milieu des années 2000, Ducati ravive l’esprit des classiques avec la série SportClassic. 
-            La GT1000 se distingue par son confort, son élégance et sa mécanique moderne habillée de lignes 
-            intemporelles. Produite sur une courte période, elle est aujourd’hui recherchée pour son caractère 
-            et sa rareté.
+            La gamme <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">Ducati SportClassic</a> (2006–2010) rassemble trois modèles : 
+            la Sport, la Paul Smart 1000 LE et la GT. Toutes partagent le bicylindre desmodromique de 992&nbsp;cm³ (≈&nbsp;92&nbsp;ch), un 
+            cadre treillis tubulaire et un design néo‑rétro directement inspiré des Ducati des années 1970. La 
+            <strong>GT1000</strong> privilégie le confort et l’usage routier, la <strong>Sport</strong> adopte une ergonomie plus engagée, tandis que la 
+            <strong>Paul Smart</strong> rend hommage à la 750&nbsp;SS victorieuse d’Imola. En 2008, la <strong>GT&nbsp;Touring</strong> ajoute pare‑brise et 
+            accessoires de voyage.
           </p>
         </section>
 
         <section style={{ marginBottom: 24 }}>
-          <h2 style={{ fontSize: 24, margin: '0 0 12px 0' }}>Sur grand écran : Tron Legacy</h2>
+          <h2 style={{ fontSize: 24, margin: '0 0 12px 0' }}>Pop Culture</h2>
           <p>
-            La présence de la Sport 1000 au cinéma, notamment dans Tron Legacy, a contribué à faire connaître 
-            la lignée SportClassic à un public plus large. Son allure musclée et ses lignes néo-rétro s’y prêtent 
-            parfaitement.
+            La <strong>Ducati Sport&nbsp;1000</strong> apparaît au cinéma dans <a href="https://www.returnofthecaferacers.com/ducati-cafe-racer/tron-ducati-legacy/" target="_blank" rel="noopener">Tron&nbsp;Legacy</a>. 
+            Pour les besoins du film, la moto est légèrement modifiée (clignotants supprimés/miniaturisés, «&nbsp;tail tidy&nbsp;», bande LED, pneus pluie), 
+            renforçant son allure musclée et son statut d’icône néo‑rétro.
           </p>
           <figure style={{ margin: '12px 0 0 0' }}>
-            <img src={imgTron} alt="Extrait évoquant Tron Legacy (illustration)" style={{ width: '100%', height: 'auto', borderRadius: 8 }} loading="lazy" />
+            <img src={imgTron} alt="Tron Legacy – Ducati Sport 1000 (illustration)" style={{ width: '100%', height: 'auto', borderRadius: 8 }} loading="lazy" />
             <figcaption style={{ color: 'var(--muted)', marginTop: 6 }}>
-              Tron Legacy – la Ducati Sport 1000 apparaît à l’écran.
+              Tron&nbsp;Legacy popularise la silhouette de la Sport&nbsp;1000 auprès du grand public.
             </figcaption>
           </figure>
         </section>
 
-        <section aria-labelledby="more-title" style={{ marginTop: 32 }}>
-          <h2 id="more-title" style={{ fontSize: 24, margin: '0 0 12px 0' }}>Pour en savoir plus</h2>
+        <section aria-labelledby="links-title" style={{ marginTop: 32 }}>
+          <h2 id="links-title" style={{ fontSize: 24, margin: '0 0 12px 0' }}>Liens utiles</h2>
           <ul style={{ paddingLeft: 18, margin: 0 }}>
             <li>
-              Ducati 750 GT – héritage officiel Ducati (
-              <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" rel="nofollow noopener" target="_blank">source</a>
-              )
+              <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" target="_blank" rel="noopener">Ducati&nbsp;750&nbsp;GT – Héritage officiel Ducati</a>
             </li>
             <li>
-              Article évoquant Tron Legacy et la Ducati Sport 1000 (
-              <a href="https://www.returnofthecaferacers.com/ducati-cafe-racer/tron-ducati-legacy/" rel="nofollow noopener" target="_blank">source</a>
-              )
+              <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">Ducati&nbsp;SportClassic – Wikipédia</a>
+            </li>
+            <li>
+              <a href="https://www.returnofthecaferacers.com/ducati-cafe-racer/tron-ducati-legacy/" target="_blank" rel="noopener">Tron&nbsp;Legacy et la Ducati Sport&nbsp;1000 – Return of the Cafe Racers</a>
             </li>
           </ul>
         </section>
