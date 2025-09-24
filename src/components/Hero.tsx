@@ -16,6 +16,8 @@ export const Hero: FC<HeroProps> = ({ vehicle }) => {
             height={vehicle.heroImage.height}
             alt={vehicle.heroImage.alt}
             loading="eager"
+            decoding="async"
+            fetchPriority="high"
             style={{ width: '100%', height: 'auto', borderRadius: 8, display: 'block' }}
           />
         </div>

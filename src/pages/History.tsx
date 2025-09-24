@@ -2,9 +2,13 @@ import type { FC } from 'react'
 import Layout from '../components/Layout'
 import Breadcrumbs from '../components/Breadcrumbs'
 
-const base = import.meta.env.BASE_URL || '/'
-const img750gt = `${base}images/ducati-750gt.svg`
-const imgTron = `${base}images/tron-legacy.svg`
+//const base = import.meta.env.BASE_URL || '/'
+//const img750gt = `${base}images/ducati-750gt.svg`
+// const imgTron = `${base}images/tron-legacy.svg`
+const img750gt = "https://images.ctfassets.net/x7j9qwvpvr5s/1D0JHdu581DG6mXz6OANEa/04e6c3f5ef5e68fe76878c36303dd3d7/750-GT-Editorial-Wide-1330x768.jpg"
+const imgSportClassic = "https://upload.wikimedia.org/wikipedia/commons/3/3b/2006_Ducati_Sport_1000.jpg"
+const imgTron = "https://www.returnofthecaferacers.com/wp-content/uploads/2010/12/tron-legacy-motorcycle-ducati-6.jpg"
+
 
 export const Histoire: FC = () => {
   return (
@@ -14,8 +18,7 @@ export const Histoire: FC = () => {
         <header style={{ marginBottom: 24 }}>
           <h1 style={{ fontSize: 32, margin: 0 }}>Histoire de la Ducati SportClassic – GT1000</h1>
           <p style={{ color: 'var(--muted)', margin: '8px 0 0 0' }}>
-            Des origines de la <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" target="_blank" rel="noopener">Ducati 750 GT</a> à la 
-            <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">série Ducati SportClassic</a> et à sa place dans la pop culture.
+            Des origines de la <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" target="_blank" rel="noopener">Ducati 750 GT</a> à la&nbsp;<a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">série Ducati SportClassic</a> et sa place dans la pop culture.
           </p>
         </header>
 
@@ -40,7 +43,12 @@ export const Histoire: FC = () => {
           <p>
             La gamme <a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">Ducati SportClassic</a> (2006–2010) rassemble trois modèles : 
             la Sport, la Paul Smart 1000 LE et la GT. Toutes partagent le bicylindre desmodromique de 992&nbsp;cm³ (≈&nbsp;92&nbsp;ch), un 
-            cadre treillis tubulaire et un design néo‑rétro directement inspiré des Ducati des années 1970.</p>
+            cadre treillis tubulaire et un design néo‑rétro directement inspiré des Ducati des années 1970.
+          </p>
+          <img src={imgSportClassic} alt="Ducati GT 1000 (image d'illustration)" style={{ width: '100%', height: 'auto', borderRadius: 8 }} loading="lazy" />
+          <figcaption style={{ color: 'var(--muted)', marginTop: 6 }}>
+              La 750 GT, matrice de la GT1000 et de l’esthétique néo‑rétro.
+          </figcaption>  
           <p>
             La <strong>GT1000</strong> privilégie le confort et l’usage routier, la <strong>Sport</strong> adopte une ergonomie plus engagée, tandis que la <strong>Paul Smart</strong> rend hommage à la 750&nbsp;SS victorieuse d’Imola. En 2008, la <strong>GT&nbsp;Touring</strong> ajoute pare‑brise et 
             accessoires de voyage.

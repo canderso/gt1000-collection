@@ -2,18 +2,19 @@ import type { Vehicle } from '../types'
 
 const base = import.meta.env.BASE_URL || '/'
 const placeholder = `${base}images/placeholder.svg`
+const heroImageUrl = `${base}assets/imgHero.jpg`
 
 export const vehicle: Vehicle = {
   id: 'ducati-gt1000',
-  name: 'Ducati GT1000',
+  name: 'Ducati SportClassic GT1000',
   subtitle: 'Série SportClassic',
   description: 'Classique moderne aux lignes intemporelles, la Ducati GT1000 marie une esthétique vintage à une ingénierie contemporaine.',
   brand: 'Ducati',
   model: 'GT1000',
   year: '2007',
   heroImage: {
-    url: placeholder,
-    alt: 'Ducati GT1000, profil latéral (image de remplacement)',
+    url: heroImageUrl,
+    alt: 'Ducati GT1000, image héro',
     width: 1600,
     height: 900,
   },
