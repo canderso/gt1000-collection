@@ -15,6 +15,7 @@ export type Vehicle = {
   id: string
   name: string
   subtitle?: string
+  intro?: string
   description?: string
   brand: string
   model: string

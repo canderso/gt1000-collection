@@ -26,6 +26,7 @@ export const Hero: FC<HeroProps> = ({ vehicle }) => {
         <div>
           <h1 id="hero-title" style={{ fontSize: 36 }}>{vehicle.name}</h1>
           {vehicle.subtitle ? <p style={{ color: 'var(--muted)' }}>{vehicle.subtitle}</p> : null}
+          {vehicle.intro ? <p style={{ fontSize: 18, marginTop: 8 }}>{vehicle.intro}</p> : null}
           {vehicle.description ? <p style={{ maxWidth: 72 * 16 }}>{vehicle.description}</p> : null}
         </div>
       </div>

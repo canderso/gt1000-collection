@@ -6,12 +6,17 @@ const heroImageUrl = `${base}assets/imgHero.jpg`
 
 export const vehicle: Vehicle = {
   id: 'ducati-gt1000',
-  name: 'Ducati SportClassic GT1000',
+  name: 'Ducati GT1000',
   subtitle: 'Série SportClassic',
-  description: 'Classique moderne aux lignes intemporelles, la Ducati GT1000 marie une esthétique vintage à une ingénierie contemporaine.',
+  intro: 'Ce site centralise tout ce qu\'il y a à savoir sur ma Ducati GT1000.'
+   + ' Photos, historique de la moto, modifications, tout y est. Un peu commme un blog mais sans les articles.',
+  description: 'Classique moderne aux lignes intemporelles, la Ducati GT1000 marie une esthétique vintage à une ingénierie contemporaine.'
+   + ' Première mise en circulation en 2006, je l\'ai achetée en deuxième main en 2016. C\'est mon véhicule secondaire, une véritable moto plaisir pour les week-ends.'
+   + ' Au fil des années, j\'ai quelques peu modifié la moto pour la rendre plus proche de la Sport 1000 et de la préparation vue dans "Tron Legacy"'
+   + ' mais tout est respectant la législation. Vous retrouverez tous ces détails dans la section "Modifications".',
   brand: 'Ducati',
   model: 'GT1000',
-  year: '2007',
+  year: '2006',
   heroImage: {
     url: heroImageUrl,
     alt: 'Ducati GT1000, image héro',
