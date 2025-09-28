@@ -1,7 +1,7 @@
 import type { Vehicle } from '../types'
+import gallery from './gallery'
 
 const base = import.meta.env.BASE_URL || '/'
-const placeholder = `${base}images/placeholder.svg`
 const heroImageUrl = `${base}assets/imgHero.jpg`
 
 export const vehicle: Vehicle = {
@@ -23,12 +23,7 @@ export const vehicle: Vehicle = {
     width: 1600,
     height: 900,
   },
-  gallery: [
-    { url: placeholder, alt: 'Vue trois-quarts avant (image de remplacement)' },
-    { url: placeholder, alt: 'Vue trois-quarts arrière (image de remplacement)' },
-    { url: placeholder, alt: 'Bloc instruments (image de remplacement)' },
-    { url: placeholder, alt: 'Détail du moteur (image de remplacement)' },
-  ],
+  gallery,
   specs: [
     { label: 'Moteur', value: '992 cm³ bicylindre en L, refroidi par air' },
     { label: 'Puissance', value: '≈ 92 ch' },
