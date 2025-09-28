@@ -23,11 +23,21 @@ export const Hero: FC<HeroProps> = ({ vehicle }) => {
             />
           </div>
         </div>
-        <div>
-          <h1 id="hero-title" style={{ fontSize: 36 }}>{vehicle.name}</h1>
-          {vehicle.subtitle ? <p style={{ color: 'var(--muted)' }}>{vehicle.subtitle}</p> : null}
-          {vehicle.intro ? <p style={{ fontSize: 18, marginTop: 8 }}>{vehicle.intro}</p> : null}
-          {vehicle.description ? <p style={{ maxWidth: 72 * 16 }}>{vehicle.description}</p> : null}
+        <div style={{ textAlign: 'left' }}>
+          <h1 id="hero-title" style={{ fontSize: 36, margin: 0 }}>
+            {vehicle.name}
+            {vehicle.subtitle ? (
+              <span style={{ marginLeft: 8, color: 'var(--muted)', fontWeight: 400 }}>
+                {vehicle.subtitle}
+              </span>
+            ) : null}
+          </h1>
+          {vehicle.intro ? (
+            <p style={{ fontSize: 18, marginTop: 8, marginBottom: 8, maxWidth: 72 * 16 }}>{vehicle.intro}</p>
+          ) : null}
+          {vehicle.description ? (
+            <p style={{ fontSize: 18, marginTop: 8, marginBottom: 0, maxWidth: 72 * 16 }}>{vehicle.description}</p>
+          ) : null}
         </div>
       </div>
     </section>
