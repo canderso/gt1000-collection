@@ -7,6 +7,8 @@ import Specs from './components/Specs'
 import Provenance from './components/Provenance'
 import JsonLd from './components/JsonLd'
 import { vehicle } from './data/vehicle'
+import Timeline from './components/Timeline'
+import timeline from './data/timeline'
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Gallery images={vehicle.gallery} />
       <Specs specs={vehicle.specs} />
       <Provenance entries={vehicle.provenance} />
+      <Timeline events={timeline} />
       <JsonLd vehicle={vehicle} />
     </Layout>
   )

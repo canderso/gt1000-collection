@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1100" viewBox="0 0 360 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Timeline Ducati GT1000</title>
+  <desc id="desc">Ligne verticale rouge avec 7 événements : années et libellés, style stations de métro.</desc>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="360" height="1100" fill="#ffffff"/>
+
+  <!-- Ducati Red line aligned to first and last station centers -->
+  <line x1="48" y1="80" x2="48" y2="1040" stroke="#cc0000" stroke-width="4"/>
+
+  <!-- Styles -->
+  <style>
+    .station-outer { fill: #ffffff; stroke: #cc0000; stroke-width: 4; }
+    .station-inner { fill: #cc0000; }
+    .year { font: 600 14px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; fill: #111; }
+    .label { font: 400 12px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; fill: #333; }
+  </style>
+
+  <!-- Helper function via groups: stations spaced vertically for mobile-first design -->
+  <!-- y positions: 80, 240, 400, 560, 720, 880, 1040 -->
+
+  <!-- 2006 : Mise en circulation -->
+  <g transform="translate(0,80)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2006</text>
+    <text class="label" x="72" y="16">Mise en circulation</text>
+  </g>
+
+  <!-- 2016 : Achat -->
+  <g transform="translate(0,240)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2016</text>
+    <text class="label" x="72" y="16">Achat</text>
+  </g>
+
+  <!-- 2017 : Changement de l'arrière -->
+  <g transform="translate(0,400)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2017</text>
+    <text class="label" x="72" y="16">Changement de l'arrière</text>
+  </g>
+
+  <!-- 2018 : Changement des rétroviseurs -->
+  <g transform="translate(0,560)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2018</text>
+    <text class="label" x="72" y="16">Changement des rétroviseurs</text>
+  </g>
+
+  <!-- 2021 : Nouveau pots -->
+  <g transform="translate(0,720)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2021</text>
+    <text class="label" x="72" y="16">Nouveau pots</text>
+  </g>
+
+  <!-- 2024 : Contrôle technique valable 3 ans -->
+  <g transform="translate(0,880)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2024</text>
+    <text class="label" x="72" y="16">Contrôle technique valable 3 ans</text>
+  </g>
+
+  <!-- 2025 : Vente -->
+  <g transform="translate(0,1040)">
+    <circle class="station-outer" cx="48" cy="0" r="12"/>
+    <circle class="station-inner" cx="48" cy="0" r="4"/>
+    <text class="year" x="72" y="-4">2025</text>
+    <text class="label" x="72" y="16">Vente</text>
+  </g>
+</svg>
+
+

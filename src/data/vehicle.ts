@@ -8,7 +8,7 @@ export const vehicle: Vehicle = {
   id: 'ducati-gt1000',
   name: 'Ducati GT1000',
   subtitle: 'Série SportClassic',
-  intro: 'Ce site centralise tout ce qu\'il y a à savoir sur ma Ducati GT1000.'
+  intro: 'Ce site centralise tout ce qu\'il y a à savoir sur ma Ducati GT1000 :'
    + ' Photos, historique de la moto, modifications, tout y est. Un peu commme un blog mais sans les articles.',
   description: 'Classique moderne aux lignes intemporelles, la Ducati GT1000 marie une esthétique vintage à une ingénierie contemporaine.'
    + ' Première mise en circulation en 2006, je l\'ai achetée en deuxième main en 2016. C\'est mon véhicule secondaire, une véritable moto plaisir pour les week-ends.'
@@ -31,6 +31,11 @@ export const vehicle: Vehicle = {
     { label: 'Transmission', value: '6 vitesses' },
     { label: 'Poids à sec', value: '≈ 185 kg' },
     { label: 'Capacité du réservoir', value: '15 L' },
+    { label: 'Contrôle technique', value: '2024 - Valable jusqu\'en 2027' },
+  ],
+  timeline: [
+    { year: 2006, label: 'Première mise en circulation' },
+    { year: 2016, label: 'Achat' },
   ],
   provenance: [
     'Exemplaire première main (contenu de remplacement)',

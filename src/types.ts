@@ -11,6 +11,12 @@ export type SpecItem = {
   value: string
 }
 
+export type TimelineItem = {
+  year: number
+  label: string
+  image?: GalleryImage
+}
+
 export type Vehicle = {
   id: string
   name: string
@@ -23,6 +29,7 @@ export type Vehicle = {
   heroImage: GalleryImage
   gallery: GalleryImage[]
   specs: SpecItem[]
+  timeline?: TimelineItem[]
   provenance?: string[]
 }
 
