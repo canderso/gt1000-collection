@@ -16,9 +16,9 @@ export const Histoire: FC = () => {
       <Breadcrumbs currentLabel="Histoire" />
       <article>
         <header style={{ marginBottom: 24 }}>
-          <h1 style={{ fontSize: 32, margin: 0 }}>Histoire de la Ducati SportClassic – GT1000</h1>
+          <h1 style={{ fontSize: 32, margin: 0 }}>Origines du Projet</h1>
           <p style={{ color: 'var(--muted)', margin: '8px 0 0 0' }}>
-            Des origines de la <a href="https://www.ducati.com/fr/fr/heritage/1962-1989/750-gt" target="_blank" rel="noopener">Ducati 750 GT</a> à la&nbsp;<a href="https://fr.wikipedia.org/wiki/Ducati_SportClassic" target="_blank" rel="noopener">série Ducati SportClassic</a> et sa place dans la pop culture.
+            Voici l'histoire de la Ducati GT1000 et du projet : d'où ça part, la Sport et la version Tron Legacy qui a inspiré ce projet.
           </p>
         </header>
 
