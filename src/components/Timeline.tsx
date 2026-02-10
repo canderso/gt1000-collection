@@ -31,7 +31,10 @@ const Timeline: FC<TimelineProps> = ({ events, title }) => {
             const isLast = idx === sorted.length - 1
             const hasSingle = sorted.length === 1
             const topOffset = hasSingle ? STATION_RADIUS : (isFirst ? STATION_RADIUS : -ROW_GAP / 2)
-            const bottomOffset = hasSingle ? STATION_RADIUS : (isLast ? STATION_RADIUS : -ROW_GAP / 2)
+            // For last item (or single), line should end at the dot's center (STATION_RADIUS from top)
+            const bottomOffset = (hasSingle || isLast) 
+              ? `calc(100% - ${STATION_RADIUS}px)` 
+              : -ROW_GAP / 2
             return (
               <li
                 key={`${ev.year}-${idx}`}
